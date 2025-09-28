@@ -55,26 +55,21 @@ const Hero = () => {
                   className="h-screen w-full object-cover"
                   draggable={false}
                 />
-                <div
-                  className="absolute inset-0"
-                  style={{ backgroundColor: "#00000099" }}
-                />
+                <div className="absolute inset-0 z-5 bg-black/70" />
               </CarouselItem>
             ))}
           </CarouselContent>
 
           {/* Prev / Next buttons (positioned outside the main image area) */}
-          <CarouselPrevious className="hidden md:block" />
-          <CarouselNext className="hidden md:block" />
+          <CarouselPrevious className="hidden" />
+          <CarouselNext className="hidden" />
         </Carousel>
       </div>
 
       {/* Main Text Overlay */}
       <div className="absolute inset-0 z-40 flex items-center justify-center select-none">
         <div className="max-w-4xl px-6 text-center text-white select-none">
-          <h1 className="">
-            23 years of crafting timeless elegance
-          </h1>
+          <h1 className="">23 years of crafting timeless elegance</h1>
           <p className="mx-auto mb-8 text-base leading-relaxed md:text-xl md:font-normal">
             A journey of trust, love, and exceptional craftsmanship in every
             piece we create.
