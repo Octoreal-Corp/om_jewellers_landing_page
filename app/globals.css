@@ -116,7 +116,29 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .font-gilda-display {
+    font-family: var(--font-gilda-display);
+  }
+  .font-lato {
+    font-family: var(--font-lato);
+  }
+  .font-noto-sans-devanagari {
+    font-family: var(--font-noto-sans-devanagari);
   }
 }

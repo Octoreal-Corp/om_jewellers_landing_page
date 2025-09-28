@@ -16,33 +16,45 @@ const Navbar = () => {
         <div className=" w-full  mx-auto px-4 sm:px-6 lg:px-12">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <div className="flex-shrink-0 cursor-pointer">
-             <Image
-              src={'/logo.png'}
-              alt='logo'
-              height={40}
-              width={80}
-              />
+            <div className="flex-shrink-0 cursor-pointer flex items-center space-x-2 group">
+              <div className="relative">
+                <Image
+                  src={'/logo.png'}
+                  alt='logo'
+                  height={45}
+                  width={35}
+                  className='object-contain transition-transform duration-300 group-hover:scale-105'
+                />
+              </div>
+              <div className="relative">
+                <Image
+                  src={'/logo1.png'}
+                  alt='logo text'
+                  height={45}
+                  width={100}
+                  className='object-contain transition-transform duration-300 group-hover:scale-105'
+                />
+              </div>
             </div>
 
             {/* Desktop Menu */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
                 <a
-                  href="#"
+                  href="#jewelry"
                   className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors"
                 >
                   Collections
                 </a>
                 <a
-                  href="#"
+                  href="#message"
                   className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium transition-colors"
                 >
                   Gallery
                 </a>
                 <a
-                  href="#"
-                  className="bg-[#800000] hover:bg-red-900 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
+                  href="#contact"
+                  className="bg-[#99804C]   text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
                 >
                   Contact
                 </a>
@@ -113,21 +125,21 @@ const Navbar = () => {
             {/* Menu items */}
             <div className="space-y-6">
               <a
-                href="#"
+                href="#jewelry"
                 className="block text-gray-700 hover:text-gray-900 text-lg font-medium transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Collections
               </a>
               <a
-                href="#"
+                href="#message"
                 className="block text-gray-700 hover:text-gray-900 text-lg font-medium transition-colors"
                 onClick={toggleMobileMenu}
               >
                 Gallery
               </a>
               <a
-                href="#"
+                href="#contact"
                 className="inline-block bg-[#800000] hover:bg-red-900 text-white px-4 py-3 rounded-md text-lg font-medium transition-colors"
                 onClick={toggleMobileMenu}
               >
