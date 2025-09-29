@@ -88,7 +88,7 @@ const Contact = () => {
                   </div>
 
                   <Link
-                    href="https://maps.google.com/?q=In+front+of+Sanjay+Market,+beside+Sai+Mobile,+Palace+Road,+Jagdalpur"
+                    href="https://maps.app.goo.gl/jSv8PaRjyJY6umuK6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center transition-colors hover:text-gray-700"

@@ -18,7 +18,7 @@ import Image6 from "@/assets/Img-07.jpg";
 import Image from "next/image";
 
 const Hero = () => {
-  const slides = [Image1, Image2, Image3, Image4, Image5, Image6];
+  const slides = [Image6, Image1, Image2, Image3, Image4, Image5];
 
   const [api, setApi] = useState<CarouselApi | null>(null);
   const [isPaused, setIsPaused] = useState(false);
@@ -53,7 +53,7 @@ const Hero = () => {
                 <Image
                   src={src}
                   alt={`Slide ${index + 1}`}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover object-bottom"
                   draggable={false}
                   priority
                 />

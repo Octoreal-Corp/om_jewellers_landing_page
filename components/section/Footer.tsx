@@ -53,18 +53,19 @@ const Footer: React.FC = () => {
       {/* Bottom Section */}
       <div className="mx-auto mt-10 flex max-w-7xl flex-col items-start justify-between gap-4 border-t border-gray-200 pt-6 text-sm md:items-center lg:flex-row">
         <div className="flex gap-6">
-          <a href="#" className="hover:underline">
+          <a href="#" className="underline underline-offset-4">
             Privacy policy
           </a>
-          <a href="#" className="hover:underline">
+          <a href="#" className="underline underline-offset-4">
             Terms of service
           </a>
         </div>
         <div>
-          <span>
-            © 2025 Om Jewellers. All rights reserved. Contact no. 9753392000
-          </span>
-          <span className="ml-4">Powered by Manish Parekh</span>
+          <span>© 2025 Om Jewellers. All rights reserved.</span>
+        </div>
+        <div>
+          <span className="mr-4">Powered by Manish Parekh</span>
+          <span>Contact no. 9753392000</span>
         </div>
       </div>
     </footer>
