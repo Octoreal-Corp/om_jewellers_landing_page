@@ -55,15 +55,12 @@ const Hero = () => {
                   alt={`Slide ${index + 1}`}
                   className="h-full w-full object-cover"
                   draggable={false}
+                  priority
                 />
-                <div className="absolute inset-0 z-5 bg-black/70" />
+                <div className="absolute inset-0 bg-black/70" />
               </CarouselItem>
             ))}
           </CarouselContent>
-
-          {/* Prev / Next buttons (positioned outside the main image area) */}
-          <CarouselPrevious className="hidden" />
-          <CarouselNext className="hidden" />
         </Carousel>
       </div>
 
