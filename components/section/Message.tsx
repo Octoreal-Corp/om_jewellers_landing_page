@@ -1,4 +1,4 @@
-import WelcomeImage from "@/assets/Img-05.png";
+import WelcomeImage from "@/assets/Img-05.jpg";
 import Image from "next/image";
 import React from "react";
 

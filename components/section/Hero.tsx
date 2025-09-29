@@ -9,12 +9,12 @@ import {
   type CarouselApi,
 } from "../ui/carousel";
 
-import Image1 from "@/assets/Img-01.png";
-import Image2 from "@/assets/Img-02.png";
-import Image3 from "@/assets/Img-03.png";
-import Image4 from "@/assets/Img-04.png";
-import Image5 from "@/assets/Img-06.png";
-import Image6 from "@/assets/Img-07.png";
+import Image1 from "@/assets/Img-01.jpg";
+import Image2 from "@/assets/Img-02.jpg";
+import Image3 from "@/assets/Img-03.jpg";
+import Image4 from "@/assets/Img-04.jpg";
+import Image5 from "@/assets/Img-06.jpg";
+import Image6 from "@/assets/Img-07.jpg";
 import Image from "next/image";
 
 const Hero = () => {

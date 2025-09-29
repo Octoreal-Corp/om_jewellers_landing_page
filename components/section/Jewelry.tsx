@@ -2,13 +2,13 @@ import { ChevronRight } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
-import Bracelet from "@/assets/Bracelet.png";
-import Mangalsutra from "@/assets/Mangalsutra.png";
-import Bangles from "@/assets/bangles.png";
-import Chains from "@/assets/chains.png";
-import Earrings from "@/assets/earing.png";
-import Pendant from "@/assets/pendant.png";
-import Rings from "@/assets/ring.png";
+import Bracelet from "@/assets/Bracelet.jpg";
+import Mangalsutra from "@/assets/Mangalsutra.jpg";
+import Bangles from "@/assets/bangles.jpg";
+import Chains from "@/assets/chains.jpg";
+import Earrings from "@/assets/earing.jpg";
+import Pendant from "@/assets/pendant.jpg";
+import Rings from "@/assets/ring.jpg";
 import Image from "next/image";
 
 const Jewelry = () => {
