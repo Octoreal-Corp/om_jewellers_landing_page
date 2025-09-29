@@ -21,10 +21,10 @@ export default function JsonLd() {
       priceRange: "₹₹₹",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "Your Street Address",
+        streetAddress: "infront of, Sanjay market, Palace Rd ",
         addressLocality: "Jagdalpur",
         addressRegion: "Chattisgarh",
-        postalCode: "XXXXXX",
+        postalCode: "494001",
         addressCountry: "IN",
       },
       geo: {
