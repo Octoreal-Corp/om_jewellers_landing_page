@@ -6,22 +6,23 @@ import Link from "next/link";
 import React from "react";
 import ContactMap from "./ContactMap";
 
+import NewLocation from "@/assets/new-location.jpg";
+
 const Contact = () => {
   return (
     <section id="contact" className="w-full px-4 py-16 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
-        {/* Title Section */}
-        <div className="mb-16 text-left">
-          <h2 className="mb-4">Contact us</h2>
-          <p className="max-w-2xl text-lg sm:text-xl">
-            We are here to help you find your perfect piece
-          </p>
-        </div>
-
         {/* Contact Content */}
         <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-2">
           {/* Left Column - Contact Details */}
           <div className="space-y-8">
+            {/* Title Section */}
+            <div className="mb-16 text-left">
+              <h2 className="mb-4">Contact us</h2>
+              <p className="max-w-2xl text-lg sm:text-xl">
+                We are here to help you find your perfect piece
+              </p>
+            </div>
             {/* Email */}
             <div className="flex flex-col items-start space-x-4">
               <div className="mb-4 flex-shrink-0">
@@ -110,6 +111,15 @@ const Contact = () => {
           {/* Right Column - Map */}
           <div className="lg:pl-8">
             <ContactMap />
+            <div>
+              <Image
+                src={NewLocation}
+                alt="Infographic showing the new location of Om Jewellers in Jagdalpur"
+                width={600}
+                height={400}
+                className="mt-4 w-full rounded-lg object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>
