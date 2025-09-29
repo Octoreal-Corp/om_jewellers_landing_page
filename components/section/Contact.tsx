@@ -12,9 +12,7 @@ const Contact = () => {
       <div className="mx-auto max-w-7xl">
         {/* Title Section */}
         <div className="mb-16 text-left">
-          <h2 className="mb-4 text-4xl font-normal sm:text-5xl lg:text-6xl">
-            Contact us
-          </h2>
+          <h2 className="mb-4">Contact us</h2>
           <p className="max-w-2xl text-lg sm:text-xl">
             We are here to help you find your perfect piece
           </p>

@@ -125,7 +125,10 @@
   }
 
   h1 {
-    @apply font-heading mb-6 text-center text-4xl leading-[120%] tracking-[-1%] md:text-5xl lg:text-6xl;
+    @apply font-heading text-center text-[40px] leading-[120%] tracking-[-1%] md:text-7xl;
+  }
+  h2 {
+    @apply font-heading text-4xl leading-[120%] tracking-[-1%] md:text-[52px];
   }
   h6 {
     @apply font-heading text-lg leading-[120%] tracking-[-1%] lg:text-[22px];

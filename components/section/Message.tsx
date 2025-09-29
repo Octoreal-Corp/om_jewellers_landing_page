@@ -7,9 +7,9 @@ const Message = () => {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
           {/* Left Section - Text Content */}
-          <div className="space-y-8">
+          <div className="">
             {/* Title */}
-            <h2 className="text-[32px] leading-[120%] md:text-[44px]">
+            <h2 className="font-hindi mb-5 font-normal md:mb-6">
               आत्मीय संदेश.......
             </h2>
 
