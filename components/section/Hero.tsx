@@ -33,8 +33,8 @@ const Hero = () => {
   }, [api, isPaused]);
 
   return (
-    <div id="home" className="relative h-screen w-full select-none">
-      <div className="relative h-screen w-full overflow-hidden bg-gray-100 select-none">
+    <div id="home" className="relative h-full w-full select-none">
+      <div className="relative h-full w-full overflow-hidden bg-gray-100 select-none">
         <Carousel
           opts={{ loop: true }}
           setApi={(c) => setApi(c)}
@@ -53,7 +53,7 @@ const Hero = () => {
                 <Image
                   src={src}
                   alt={`Slide ${index + 1}`}
-                  className="h-screen w-full object-cover"
+                  className="h-full w-full object-cover"
                   draggable={false}
                 />
                 <div className="absolute inset-0 z-5 bg-black/70" />

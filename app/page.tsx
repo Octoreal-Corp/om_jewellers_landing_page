@@ -8,9 +8,13 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="min-h-screen w-full">
-      <Navbar />
-      <Hero />
+    <div className="mx-auto max-w-[1536px]">
+      <header className="relative h-dvh w-full">
+        <Navbar />
+        <div className="h-[calc(100vh-72px)]">
+          <Hero />
+        </div>
+      </header>
       <Message />
       <Jewelry />
       <Contact />
