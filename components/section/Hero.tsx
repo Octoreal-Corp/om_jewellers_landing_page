@@ -67,7 +67,7 @@ const Hero = () => {
       </div>
 
       {/* Main Text Overlay */}
-      <div className="absolute inset-0 z-40 flex items-center justify-center select-none">
+      <div className="absolute inset-0 z-10 flex items-center justify-center select-none">
         <div className="max-w-4xl px-6 text-center text-white select-none">
           <h1 className="mb-5 md:mb-6">
             23 years of crafting timeless elegance
