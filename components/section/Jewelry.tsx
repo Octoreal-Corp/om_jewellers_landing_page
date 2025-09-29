@@ -1,17 +1,25 @@
 import { ChevronRight } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+import Bracelet from "@/assets/Bracelet.png";
+import Mangalsutra from "@/assets/Mangalsutra.png";
+import Bangles from "@/assets/bangles.png";
+import Chains from "@/assets/chains.png";
+import Earrings from "@/assets/earing.png";
+import Pendant from "@/assets/pendant.png";
+import Rings from "@/assets/ring.png";
+import Image from "next/image";
+
 const Jewelry = () => {
   const jewelryCategories = [
-    { name: "Earrings", image: "/earing.png" },
-    { name: "Rings", image: "/ring.png" },
-    { name: "Pendant", image: "/pendant.png" },
-    { name: "Mangalsutra", image: "/Mangalsutra.png" },
-    { name: "Bracelet", image: "/Bracelet.png" },
-    { name: "Bangles", image: "/bangles.png" },
-    { name: "Chains", image: "/chains.png" },
+    { name: "Earrings", image: Earrings },
+    { name: "Rings", image: Rings },
+    { name: "Pendant", image: Pendant },
+    { name: "Mangalsutra", image: Mangalsutra },
+    { name: "Bracelet", image: Bracelet },
+    { name: "Bangles", image: Bangles },
+    { name: "Chains", image: Chains },
   ];
 
   return (
@@ -30,7 +38,7 @@ const Jewelry = () => {
           {jewelryCategories.map((category, index) => (
             <div className="py-6" key={index}>
               <Link href="#contact" className="group cursor-pointer">
-                <div className="relative mb-4 aspect-square overflow-hidden rounded-lg bg-gray-100">
+                <div className="relative mb-4 h-[360px] overflow-hidden rounded-[8px] bg-gray-100">
                   <Image
                     src={category.image}
                     alt={category.name}
@@ -46,16 +54,14 @@ const Jewelry = () => {
           {/* Explore More Card */}
           <div className="py-6">
             <Link href="#contact" className="group cursor-pointer">
-              <div className="relative mb-4 flex aspect-square flex-col justify-center overflow-hidden rounded-lg bg-[#D2BC8F] p-6">
-                <h5 className="font-gilda-display mb-3 text-left text-2xl font-normal text-gray-900">
-                  Explore More
-                </h5>
-                <p className="font-gilda-display mb-4 text-left text-base leading-relaxed text-gray-700">
+              <div className="relative mb-4 flex h-[360px] flex-col justify-center overflow-hidden rounded-[8px] bg-[#D2BC8F] p-6">
+                <h5 className="mb-3">Explore More</h5>
+                <p className="">
                   Explore timeless pieces from 10 + categories to be part of
                   your memories
                 </p>
               </div>
-              <div className="font-heading inline-flex items-center text-left text-xl leading-[120%] tracking-[-1%] transition-all duration-200 group-hover:translate-x-1 hover:text-gray-700 lg:text-[28px]">
+              <div className="font-heading inline-flex items-center text-left text-xl leading-[120%] tracking-[-1%] lg:text-[28px]">
                 Discover All{" "}
                 <span className="ml-2 text-lg">
                   <ChevronRight />

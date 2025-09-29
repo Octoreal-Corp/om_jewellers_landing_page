@@ -9,15 +9,16 @@ import {
   type CarouselApi,
 } from "../ui/carousel";
 
+import Image1 from "@/assets/Img-01.png";
+import Image2 from "@/assets/Img-02.png";
+import Image3 from "@/assets/Img-03.png";
+import Image4 from "@/assets/Img-04.png";
+import Image5 from "@/assets/Img-06.png";
+import Image6 from "@/assets/Img-07.png";
+import Image from "next/image";
+
 const Hero = () => {
-  const slides = [
-    "/Img-03 1.png",
-    "/Img-05 1.png",
-    "/Img-10 1.png",
-    "/Img-33 1.png",
-    "/Img-71 1.png",
-    "/Img-72 1.png",
-  ];
+  const slides = [Image1, Image2, Image3, Image4, Image5, Image6];
 
   const [api, setApi] = useState<CarouselApi | null>(null);
   const [isPaused, setIsPaused] = useState(false);
@@ -49,7 +50,7 @@ const Hero = () => {
                 key={index}
                 className="relative h-full w-full !pl-0"
               >
-                <img
+                <Image
                   src={src}
                   alt={`Slide ${index + 1}`}
                   className="h-screen w-full object-cover"

@@ -1,3 +1,4 @@
+import WelcomeImage from "@/assets/Img-05.png";
 import Image from "next/image";
 import React from "react";
 
@@ -33,7 +34,7 @@ const Message = () => {
           <div className="relative">
             <div className="relative h-[400px] w-full overflow-hidden rounded-lg shadow-2xl md:h-[600px]">
               <Image
-                src="/Img-38.png"
+                src={WelcomeImage}
                 alt="Om Jewelers Store Interior"
                 fill
                 className="object-cover"
