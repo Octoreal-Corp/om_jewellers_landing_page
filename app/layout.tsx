@@ -22,7 +22,7 @@ const notoSansDevanagari = Noto_Sans_Devanagari({
 
 export const metadata: Metadata = {
   title: "Om Jewellers",
-  description: "Best Jewellers in Chattisgarh",
+  description: "Best Jewellers in Jagdalpur, Chattisgarh",
 };
 
 export default function RootLayout({
