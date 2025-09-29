@@ -38,7 +38,7 @@ const Jewelry = () => {
           {jewelryCategories.map((category, index) => (
             <div className="py-6" key={index}>
               <Link href="#contact" className="group cursor-pointer">
-                <div className="relative mb-4 h-[360px] overflow-hidden rounded-[8px] bg-gray-100">
+                <div className="relative mb-4 h-[360px] max-w-[340px] overflow-hidden rounded-[8px] bg-gray-100">
                   <Image
                     src={category.image}
                     alt={category.name}
@@ -54,7 +54,7 @@ const Jewelry = () => {
           {/* Explore More Card */}
           <div className="py-6">
             <Link href="#contact" className="group cursor-pointer">
-              <div className="relative mb-4 flex h-[360px] flex-col justify-center overflow-hidden rounded-[8px] bg-[#D2BC8F] p-6">
+              <div className="relative mb-4 flex h-[360px] max-w-[340px] flex-col justify-center overflow-hidden rounded-[8px] bg-[#D2BC8F] p-6">
                 <h5 className="mb-3">Explore More</h5>
                 <p className="">
                   Explore timeless pieces from 10 + categories to be part of
