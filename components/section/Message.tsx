@@ -9,31 +9,22 @@ const Message = () => {
           {/* Left Section - Text Content */}
           <div className="space-y-8">
             {/* Title */}
-            <h2 className="text-4xl leading-tight font-bold text-gray-900 md:text-5xl">
+            <h2 className="text-[32px] leading-[120%] md:text-[44px]">
               आत्मीय संदेश.......
             </h2>
 
-            {/* First Paragraph */}
+            {/* Paragraph */}
             <div className="space-y-4">
-              <p className="text-lg leading-relaxed text-neutral-900 md:text-xl">
+              <p className="text-base leading-[150%] md:text-lg">
                 आप सभी के स्नेह एवं सहयोग से ओम ज्वेलर्स अपनी 23 वर्ष की यात्रा
                 पूरी कर चुका है। इस अद्वितीय यात्रा को आप सभी ने अपने स्नेह,
                 विश्वास, मार्गदर्शन, सकारात्मक सहयोग और आशीर्वाद से सिंचा है। हम
                 आशा करते है, हमारे इस सफर को आप सभी का अपार स्नेह और समर्थन
-                निरंतर मिलता रहेगा।
-              </p>
-
-              <p className="text-lg leading-relaxed text-neutral-900 md:text-xl">
+                निरंतर मिलता रहेगा। <br /> <br />
                 इस 23 वर्ष की सफर को अद्वितीय बनाने के लिए आप सभी का आभार। आशा
-                है आप सभी का सहयोग एवं मार्गदर्शन आगे भी मिलता रहेगा।
-              </p>
-            </div>
-
-            {/* Signature */}
-            <div className="pt-8">
-              <p className="text-lg text-gray-700 md:text-xl">आपका अपना,</p>
-              <p className="mt-2 text-xl font-semibold text-gray-900 md:text-2xl">
-                ओम ज्वेलर्स परिवार
+                है आप सभी का सहयोग एवं मार्गदर्शन आगे भी मिलता रहेगा। <br />{" "}
+                <br /> आपका अपना, <br />{" "}
+                <span className="font-bold">ओम ज्वेलर्स परिवार</span>
               </p>
             </div>
           </div>

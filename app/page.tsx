@@ -7,16 +7,16 @@ import Navbar from "@/components/section/Navbar";
 import React from "react";
 
 const Home = () => {
-	return (
-		<div className=" min-h-screen w-full bg-background text-foreground">
-			<Navbar />
-			<Hero />
-			<Message />
-			<Jewelry />
-			<Contact />
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="min-h-screen w-full">
+      <Navbar />
+      <Hero />
+      <Message />
+      <Jewelry />
+      <Contact />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;

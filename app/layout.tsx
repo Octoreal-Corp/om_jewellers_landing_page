@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${gildaDisplay.variable} ${lato.variable} ${notoSansDevanagari.variable} font-body`}
+        className={`${gildaDisplay.variable} ${lato.variable} ${notoSansDevanagari.variable}`}
       >
         {children}
       </body>
