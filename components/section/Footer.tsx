@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Navigation below logo */}
-          <nav className="flex flex-col gap-3 text-gray-700 md:flex-row md:gap-6">
+          <nav className="flex flex-col gap-3 md:flex-row md:gap-6">
             <Link
               href="#jewelry"
               className="font-gilda-display hover:underline"
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="mx-auto mt-10 flex max-w-6xl flex-col items-start justify-between gap-4 border-t border-gray-200 pt-6 text-sm md:items-center lg:flex-row">
+      <div className="mx-auto mt-10 flex max-w-7xl flex-col items-start justify-between gap-4 border-t border-gray-200 pt-6 text-sm md:items-center lg:flex-row">
         <div className="flex gap-6">
           <a href="#" className="font-gilda-display hover:underline">
             Privacy policy
