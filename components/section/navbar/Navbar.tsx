@@ -13,10 +13,10 @@ const Navbar = () => {
   return (
     <nav
       id="navbar"
-      className="bg-background z-50 flex h-[72px] w-full items-center-safe justify-center-safe pr-3 pl-5 sm:px-12 lg:px-14 xl:px-16"
+      className="bg-background z-50 flex h-[72px] w-full items-center-safe justify-center-safe pr-3 pl-5 md:px-16"
       aria-label="Main navigation"
     >
-      <div className="flex w-full max-w-[1536px] items-center justify-between pr-3 pl-5 md:px-16">
+      <div className="flex w-full max-w-[1536px] items-center justify-between">
         <div className="z-60 flex items-center">
           <Link href="/" aria-label="Om Jewellers - Back to homepage">
             <Logo />
