@@ -91,9 +91,9 @@ const Contact = () => {
                     href="https://maps.app.goo.gl/jSv8PaRjyJY6umuK6"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center transition-colors hover:text-gray-700"
+                    className="inline-flex items-center underline underline-offset-2 transition-colors hover:text-gray-700"
                   >
-                    Get directions{" "}
+                    Get directions
                     <span className="ml-2">
                       <Image
                         src={CheveronRight}

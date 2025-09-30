@@ -36,7 +36,7 @@ const Jewelry = () => {
         {/* Jewelry Grid */}
         <div className="mb-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           {jewelryCategories.map((category, index) => (
-            <div className="py-6" key={index}>
+            <div className="mx-auto w-full max-w-[340px] py-6" key={index}>
               <Link href="#contact" className="group cursor-pointer">
                 <div className="relative mb-4 h-[360px] max-w-[340px] overflow-hidden rounded-[8px] bg-gray-100">
                   <Image
@@ -52,7 +52,7 @@ const Jewelry = () => {
           ))}
 
           {/* Explore More Card */}
-          <div className="py-6">
+          <div className="mx-auto w-full max-w-[340px] py-6">
             <Link href="#contact" className="group cursor-pointer">
               <div className="relative mb-4 flex h-[360px] max-w-[340px] flex-col justify-center overflow-hidden rounded-[8px] bg-[#D2BC8F] p-6">
                 <h5 className="mb-3">Explore More</h5>
