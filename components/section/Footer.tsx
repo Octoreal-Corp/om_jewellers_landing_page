@@ -52,13 +52,19 @@ const Footer: React.FC = () => {
 
       {/* Bottom Section */}
       <div className="mx-auto mt-10 flex max-w-7xl flex-col items-start justify-between gap-4 border-t border-gray-200 pt-6 text-sm md:items-center lg:flex-row">
-        <div className="flex gap-6">
-          <a href="#" className="underline underline-offset-4">
-            Privacy policy
-          </a>
-          <a href="#" className="underline underline-offset-4">
-            Terms of service
-          </a>
+        <div className="flex">
+          <span>
+            Created by{" "}
+            <a
+              href="https://octoreal.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline underline-offset-4"
+            >
+              {" "}
+              Octoreal
+            </a>
+          </span>
         </div>
         <div>
           <span>© 2025 Om Jewellers. All rights reserved.</span>
